@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./nani.css" rel="stylesheet">
+</head>
+<body>
+    <div class="sunday">
+    <button id="1" onclick="sunday()">onclick</button>
+</div>
+<div class="monday">
+    <button id="2" onmouseover="monday()">onmouseover</button>
+</div>
+<div class="tuesday">
+    
+
+    <button id="3" onmouseup="tuesday()">onmouseup</button>
+    </div>
+    <div class="wedensday">
+    <button id="4" onmouseout="wedensday()">onmouseout</button>
+    </div>
+    <div class="thrusday">
+    <button id="5" ondblclick="thrusday()">ondblclick</button>
+    </div>
+    <div class="friday">
+    <input id="6" onblur="friday()">
+    </div>
+</body>
+<script>
+    function sunday(){
+        document.getElementById('1').style.backgroundColor="pink"
+    }
+    function monday(){
+        document.getElementById('2').style.backgroundColor="blue"
+    }
+    function tuesday(){
+        document.getElementById('3').style.backgroundColor="red"
+    }
+    function wedensday(){
+        document.getElementById('4').style.backgroundColor="orange"
+    }
+    function thrusday(){
+        document.getElementById('5').style.backgroundColor="purple"
+    }
+    function friday(){
+        document.getElementById('6').style.backgroundColor="blue"
+    }
+
+</script>
+</html>

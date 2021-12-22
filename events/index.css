@@ -1,0 +1,42 @@
+button{
+    background-color: red;
+    width: 200px;
+    height: 30px;
+}
+.one{
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+.two{
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: 600px;
+}
+.third{
+    position: absolute;
+    top: 40px;
+    left: 1200px;
+}
+.four{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+
+    
+
+}
+.five{
+    text-align: center;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+.six{
+    text-align: center;
+    position: absolute;
+    top:400px ;
+    left: 1200px;
+
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="one">
+        
+    <button id="a" onclick="one()">onclick</button> 
+    </div>
+    <div class="two">
+
+    <button id="b" onmouseover="two()">onmouseover</button>
+    </div>
+    <div class="third">
+    <button id="c" onmouseout="third()">onmouseout</button>
+    </div>
+    <div class="four">
+    <button id="d" ondblclick="four()">ondblclick</button>
+    </div>
+    <div class="five">
+        <input id="e" onblur="five()">
+    
+    </div>
+    <div class="six">
+    <button id="f" onmouseup="six()">onmouseup</button>
+    
+</body>
+<script>
+    function one(){
+        document.getElementById('a').style.backgroundColor="blue"
+    }
+    function two(){
+        document.getElementById('b').style.backgroundColor="pink"
+    }
+    function third(){
+        document.getElementById('c').style.backgroundColor="purple"
+    }
+    function four(){
+        document.getElementById('d').style.backgroundColor="white"
+
+    
+
+    }
+    function five(){
+        document.getElementById('e').style.backgroundColor="pink"
+    }
+    function six(){
+        document.getElementById('f').style.backgroundColor="blue"
+    }
+
+    
+
+    </script>
+</html>
